@@ -16,7 +16,7 @@ int* nodeType;
 real* hFCurrent;
 
 int main(int argc, char **argv) {
-	printf("lbmcuda v%2.2f\n", VERSION);
+	printf("Barracuda v%2.2f\n", VERSION);
 	printf("Georgia Institute of Technology Department of Physics - CHAOS Lab\n");
 	printf("Author: Evan Newman - evanmnewman1@gmail.com\n");
 	printf("Special Help from Abouzar Kaboudian and Flavio Fenton\n");

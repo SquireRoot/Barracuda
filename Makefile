@@ -12,7 +12,7 @@ _DEPS=UserConfig.h Config.h Kernels.cuh HelperFunctions.h
 OBJS=$(patsubst %,$(OBJDIR)/%,$(_OBJS))
 DEPS=$(patsubst %,$(INCDIR)/%,$(_DEPS))
 
-lbmcuda.out: DATA $(OBJS)
+barracuda.out: DATA $(OBJS)
 	$(CC) -o $@ $(CFLAGS) $(OBJS)
 
 $(OBJDIR)/%.o: $(SRCDIR)/%.cu $(DEPS) build 
