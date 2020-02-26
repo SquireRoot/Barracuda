@@ -1,0 +1,10 @@
+*.out
+*.o
+*.dat
+*.m~
+*.avi
+*.png
+*.jpg
+
+build/
+DATA*/
