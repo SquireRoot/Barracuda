@@ -30,7 +30,7 @@ for k = model.outputBegin:model.outputInterval:model.iterations
   v = sqrt(xData.^2 + yData.^2 + zData.^2);
   
   clf;
-  imagesc(v, [0, 0.02]);
+  imagesc(v, [0, 0.04]);
   colorbar;
   %hold on
   %y = 200:2:300;

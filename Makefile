@@ -28,7 +28,7 @@ DATA: cleanDATA
 .PHONY: clean cleanDATA
 
 clean: 
-	rm -rf $(OBJDIR)/ lbmcuda DATA/
+	rm -rf $(OBJDIR)/ barracuda.out DATA/
 
 cleanDATA:
 	rm -rf DATA/
